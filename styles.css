@@ -1,0 +1,95 @@
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #06080a;
+    color: rgb(235, 240, 241);
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(9, 238, 246);
+  }
+  
+  section {
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .project {
+    margin-bottom: 2rem;
+  }
+  
+  .project img {
+    max-width: 5%;
+    height: 5%;
+  }
+  
+  footer {
+    background-color: #333;
+    color: rgb(249, 97, 21);
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  
+/* 
+#skills {
+  background-color: #f8f8f8;
+  padding: 2rem;
+}*/
+
+#skills ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+/*
+#experience {
+  background-color: #e6e6e6;
+  padding: 2rem;
+}*/
+
+.job {
+  margin-bottom: 2rem;
+}
+
+.job h2 {
+  margin-bottom: 0.5rem;
+}
+
+.job p {
+  margin: 0.2rem 0;
+}
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background.jpg'); /* Replace with your image file path or URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #333; /* Set text color for the content */
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+}
